@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD0C613A2980397D00D998AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C61392980397D00D998AD /* AppDelegate.swift */; };
+		AD0C613C2980397D00D998AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C613B2980397D00D998AD /* SceneDelegate.swift */; };
+		AD0C613E2980397D00D998AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C613D2980397D00D998AD /* ViewController.swift */; };
+		AD0C61412980397D00D998AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0C613F2980397D00D998AD /* Main.storyboard */; };
+		AD0C61432980397D00D998AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0C61422980397D00D998AD /* Assets.xcassets */; };
+		AD0C61462980397D00D998AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0C61442980397D00D998AD /* LaunchScreen.storyboard */; };
+		AD0C61512980397E00D998AD /* DogoFetcherDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C61502980397E00D998AD /* DogoFetcherDemoTests.swift */; };
+		AD0C615B2980397E00D998AD /* DogoFetcherDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C615A2980397E00D998AD /* DogoFetcherDemoUITests.swift */; };
+		AD0C615D2980397E00D998AD /* DogoFetcherDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C615C2980397E00D998AD /* DogoFetcherDemoUITestsLaunchTests.swift */; };
+		ADDC367229803A04000973F8 /* DogoFetcher in Frameworks */ = {isa = PBXBuildFile; productRef = ADDC367129803A04000973F8 /* DogoFetcher */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD0C614D2980397E00D998AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD0C612E2980397D00D998AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD0C61352980397D00D998AD;
+			remoteInfo = DogoFetcherDemo;
+		};
+		AD0C61572980397E00D998AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD0C612E2980397D00D998AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD0C61352980397D00D998AD;
+			remoteInfo = DogoFetcherDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD0C61362980397D00D998AD /* DogoFetcherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogoFetcherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0C61392980397D00D998AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD0C613B2980397D00D998AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD0C613D2980397D00D998AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD0C61402980397D00D998AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD0C61422980397D00D998AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD0C61452980397D00D998AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD0C61472980397D00D998AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0C614C2980397E00D998AD /* DogoFetcherDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogoFetcherDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0C61502980397E00D998AD /* DogoFetcherDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogoFetcherDemoTests.swift; sourceTree = "<group>"; };
+		AD0C61562980397E00D998AD /* DogoFetcherDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogoFetcherDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0C615A2980397E00D998AD /* DogoFetcherDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogoFetcherDemoUITests.swift; sourceTree = "<group>"; };
+		AD0C615C2980397E00D998AD /* DogoFetcherDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogoFetcherDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ADDC366F298039D9000973F8 /* DogoFetcher */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DogoFetcher; path = ..; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD0C61332980397D00D998AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDC367229803A04000973F8 /* DogoFetcher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0C61492980397E00D998AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0C61532980397E00D998AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD0C612D2980397D00D998AD = {
+			isa = PBXGroup;
+			children = (
+				ADDC366E298039D9000973F8 /* Packages */,
+				AD0C61382980397D00D998AD /* DogoFetcherDemo */,
+				AD0C614F2980397E00D998AD /* DogoFetcherDemoTests */,
+				AD0C61592980397E00D998AD /* DogoFetcherDemoUITests */,
+				AD0C61372980397D00D998AD /* Products */,
+				ADDC367029803A04000973F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD0C61372980397D00D998AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD0C61362980397D00D998AD /* DogoFetcherDemo.app */,
+				AD0C614C2980397E00D998AD /* DogoFetcherDemoTests.xctest */,
+				AD0C61562980397E00D998AD /* DogoFetcherDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD0C61382980397D00D998AD /* DogoFetcherDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AD0C61392980397D00D998AD /* AppDelegate.swift */,
+				AD0C613B2980397D00D998AD /* SceneDelegate.swift */,
+				AD0C613D2980397D00D998AD /* ViewController.swift */,
+				AD0C613F2980397D00D998AD /* Main.storyboard */,
+				AD0C61422980397D00D998AD /* Assets.xcassets */,
+				AD0C61442980397D00D998AD /* LaunchScreen.storyboard */,
+				AD0C61472980397D00D998AD /* Info.plist */,
+			);
+			path = DogoFetcherDemo;
+			sourceTree = "<group>";
+		};
+		AD0C614F2980397E00D998AD /* DogoFetcherDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD0C61502980397E00D998AD /* DogoFetcherDemoTests.swift */,
+			);
+			path = DogoFetcherDemoTests;
+			sourceTree = "<group>";
+		};
+		AD0C61592980397E00D998AD /* DogoFetcherDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD0C615A2980397E00D998AD /* DogoFetcherDemoUITests.swift */,
+				AD0C615C2980397E00D998AD /* DogoFetcherDemoUITestsLaunchTests.swift */,
+			);
+			path = DogoFetcherDemoUITests;
+			sourceTree = "<group>";
+		};
+		ADDC366E298039D9000973F8 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				ADDC366F298039D9000973F8 /* DogoFetcher */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		ADDC367029803A04000973F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD0C61352980397D00D998AD /* DogoFetcherDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0C61602980397E00D998AD /* Build configuration list for PBXNativeTarget "DogoFetcherDemo" */;
+			buildPhases = (
+				AD0C61322980397D00D998AD /* Sources */,
+				AD0C61332980397D00D998AD /* Frameworks */,
+				AD0C61342980397D00D998AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogoFetcherDemo;
+			packageProductDependencies = (
+				ADDC367129803A04000973F8 /* DogoFetcher */,
+			);
+			productName = DogoFetcherDemo;
+			productReference = AD0C61362980397D00D998AD /* DogoFetcherDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD0C614B2980397E00D998AD /* DogoFetcherDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0C61632980397E00D998AD /* Build configuration list for PBXNativeTarget "DogoFetcherDemoTests" */;
+			buildPhases = (
+				AD0C61482980397E00D998AD /* Sources */,
+				AD0C61492980397E00D998AD /* Frameworks */,
+				AD0C614A2980397E00D998AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0C614E2980397E00D998AD /* PBXTargetDependency */,
+			);
+			name = DogoFetcherDemoTests;
+			productName = DogoFetcherDemoTests;
+			productReference = AD0C614C2980397E00D998AD /* DogoFetcherDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD0C61552980397E00D998AD /* DogoFetcherDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0C61662980397E00D998AD /* Build configuration list for PBXNativeTarget "DogoFetcherDemoUITests" */;
+			buildPhases = (
+				AD0C61522980397E00D998AD /* Sources */,
+				AD0C61532980397E00D998AD /* Frameworks */,
+				AD0C61542980397E00D998AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0C61582980397E00D998AD /* PBXTargetDependency */,
+			);
+			name = DogoFetcherDemoUITests;
+			productName = DogoFetcherDemoUITests;
+			productReference = AD0C61562980397E00D998AD /* DogoFetcherDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD0C612E2980397D00D998AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AD0C61352980397D00D998AD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AD0C614B2980397E00D998AD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AD0C61352980397D00D998AD;
+					};
+					AD0C61552980397E00D998AD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AD0C61352980397D00D998AD;
+					};
+				};
+			};
+			buildConfigurationList = AD0C61312980397D00D998AD /* Build configuration list for PBXProject "DogoFetcherDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD0C612D2980397D00D998AD;
+			productRefGroup = AD0C61372980397D00D998AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD0C61352980397D00D998AD /* DogoFetcherDemo */,
+				AD0C614B2980397E00D998AD /* DogoFetcherDemoTests */,
+				AD0C61552980397E00D998AD /* DogoFetcherDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD0C61342980397D00D998AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0C61462980397D00D998AD /* LaunchScreen.storyboard in Resources */,
+				AD0C61432980397D00D998AD /* Assets.xcassets in Resources */,
+				AD0C61412980397D00D998AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0C614A2980397E00D998AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0C61542980397E00D998AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD0C61322980397D00D998AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0C613E2980397D00D998AD /* ViewController.swift in Sources */,
+				AD0C613A2980397D00D998AD /* AppDelegate.swift in Sources */,
+				AD0C613C2980397D00D998AD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0C61482980397E00D998AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0C61512980397E00D998AD /* DogoFetcherDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0C61522980397E00D998AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0C615D2980397E00D998AD /* DogoFetcherDemoUITestsLaunchTests.swift in Sources */,
+				AD0C615B2980397E00D998AD /* DogoFetcherDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD0C614E2980397E00D998AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD0C61352980397D00D998AD /* DogoFetcherDemo */;
+			targetProxy = AD0C614D2980397E00D998AD /* PBXContainerItemProxy */;
+		};
+		AD0C61582980397E00D998AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD0C61352980397D00D998AD /* DogoFetcherDemo */;
+			targetProxy = AD0C61572980397E00D998AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD0C613F2980397D00D998AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD0C61402980397D00D998AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD0C61442980397D00D998AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD0C61452980397D00D998AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD0C615E2980397E00D998AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD0C615F2980397E00D998AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD0C61612980397E00D998AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74YC46EZE3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DogoFetcherDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DSH.DogoFetcherDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD0C61622980397E00D998AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74YC46EZE3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DogoFetcherDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DSH.DogoFetcherDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD0C61642980397E00D998AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74YC46EZE3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DSH.DogoFetcherDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogoFetcherDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DogoFetcherDemo";
+			};
+			name = Debug;
+		};
+		AD0C61652980397E00D998AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74YC46EZE3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DSH.DogoFetcherDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogoFetcherDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DogoFetcherDemo";
+			};
+			name = Release;
+		};
+		AD0C61672980397E00D998AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74YC46EZE3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DSH.DogoFetcherDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DogoFetcherDemo;
+			};
+			name = Debug;
+		};
+		AD0C61682980397E00D998AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74YC46EZE3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DSH.DogoFetcherDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DogoFetcherDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD0C61312980397D00D998AD /* Build configuration list for PBXProject "DogoFetcherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0C615E2980397E00D998AD /* Debug */,
+				AD0C615F2980397E00D998AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0C61602980397E00D998AD /* Build configuration list for PBXNativeTarget "DogoFetcherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0C61612980397E00D998AD /* Debug */,
+				AD0C61622980397E00D998AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0C61632980397E00D998AD /* Build configuration list for PBXNativeTarget "DogoFetcherDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0C61642980397E00D998AD /* Debug */,
+				AD0C61652980397E00D998AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0C61662980397E00D998AD /* Build configuration list for PBXNativeTarget "DogoFetcherDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0C61672980397E00D998AD /* Debug */,
+				AD0C61682980397E00D998AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ADDC367129803A04000973F8 /* DogoFetcher */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DogoFetcher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AD0C612E2980397D00D998AD /* Project object */;
+}
