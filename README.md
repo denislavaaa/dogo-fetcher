@@ -13,5 +13,5 @@ You can use `DogoFetcher` as basic gallery functionality supporting indexing, pr
 - `resetGallery()` -> Reset the gallery index and caching mechanism.
 
 ### NOTE: 
-The library uses SwiftConcurrency
-Currently the caching mechanism used is the default stragtegy for URLSession.
+- The library uses SwiftConcurrency
+-Currently the caching mechanism used is the default stragtegy for URLSession.
